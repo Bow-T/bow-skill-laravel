@@ -1,0 +1,18 @@
+{
+  "id": "laravel",
+  "label": "Laravel (PHP)",
+  "version": "1.0.0",
+  "description": "Bộ skill cho công nghệ Laravel / PHP — 3 skill chính thức của Laravel (lấy từ laravel/boost, xem THIRD_PARTY.md): quy tắc viết code Laravel, thiết kế test (bản PHPUnit), dò quy ước của codebase. Dùng được cho Laravel 10 trở lên; ghép với bộ cơ sở dữ liệu (mysql…) và bộ thanh toán (stripe) của dự án.",
+  "maintainer": "bow-gid",
+  "skillsDir": "skills",
+  "targets": {
+    "detect": [
+      { "file": "composer.json", "contains": "\"laravel/framework\"" }
+    ]
+  },
+  "skills": [
+    "laravel-best-practices",
+    "laravel-infer-conventions",
+    "laravel-testing-best-practices"
+  ]
+}
